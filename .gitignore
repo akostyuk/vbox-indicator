@@ -30,3 +30,4 @@ pip-log.txt
 .codeintel/
 *.sublime-*
 MANIFEST
+deb_dist/

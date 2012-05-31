@@ -1,1 +1,2 @@
 include vbox-indicator README.rst LICENSE
+recursive-include vbox_indicator/images *

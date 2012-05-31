@@ -68,7 +68,10 @@ class VBoxIndicator:
         if venv:
             icon_path = os.path.abspath(os.path.join(venv,
                 'usr/share/icons/ubuntu-mono-dark/apps/22/'))
-            indicator.set_icon_theme_path(icon_path)
+        else:
+            icon_path = '/usr/share/icons/ubuntu-mono-dark/apps/22/'
+
+        indicator.set_icon_theme_path(icon_path)
         return venv
 
     def get_vm_list(self):
